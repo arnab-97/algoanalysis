@@ -1,0 +1,220 @@
+{
+  "levels": [
+    {
+      "id": "beginner",
+      "title": "Beginner Level",
+      "estimatedTime": "3-4 months",
+      "prerequisites": [
+        "Basic computer knowledge",
+        "Understanding of any programming language basics",
+        "Problem-solving aptitude"
+      ],
+      "topics": [
+        {
+          "title": "Data Structures Fundamentals",
+          "description": "Learn basic data structures and their implementations",
+          "objectives": [
+            "Understand arrays and linked lists",
+            "Master basic string operations",
+            "Learn about stacks and queues",
+            "Implement basic tree structures"
+          ],
+          "resources": [
+            {
+              "title": "Data Structures Course - GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "Basic Data Structures - freeCodeCamp",
+              "url": "https://www.freecodecamp.org/learn/coding-interview-prep/#data-structures"
+            }
+          ],
+          "practice": [
+            "Implement each data structure from scratch",
+            "Solve 20 easy level problems on arrays",
+            "Create a simple project using linked lists"
+          ],
+          "assessment": [
+            "Ability to implement basic data structures",
+            "Understanding of time and space complexity",
+            "Successful completion of practice problems"
+          ]
+        },
+        {
+          "title": "Algorithm Basics",
+          "description": "Understanding fundamental algorithms and their analysis",
+          "objectives": [
+            "Learn basic sorting algorithms",
+            "Understand searching techniques",
+            "Master basic problem-solving strategies",
+            "Analyze algorithm complexity"
+          ],
+          "resources": [
+            {
+              "title": "Introduction to Algorithms - MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/"
+            },
+            {
+              "title": "Algorithm Visualizations",
+              "url": "https://visualgo.net/"
+            }
+          ],
+          "practice": [
+            "Implement common sorting algorithms",
+            "Solve searching problems",
+            "Complete algorithm analysis exercises"
+          ],
+          "assessment": [
+            "Understanding of basic algorithm concepts",
+            "Ability to implement simple algorithms",
+            "Basic complexity analysis skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermediate Level",
+      "estimatedTime": "4-6 months",
+      "prerequisites": [
+        "Strong understanding of basic data structures",
+        "Proficiency in at least one programming language",
+        "Basic algorithm analysis skills"
+      ],
+      "topics": [
+        {
+          "title": "Advanced Data Structures",
+          "description": "Deep dive into complex data structures",
+          "objectives": [
+            "Master advanced tree structures",
+            "Understand graph implementations",
+            "Learn about hash tables",
+            "Study advanced string algorithms"
+          ],
+          "resources": [
+            {
+              "title": "Advanced Data Structures - Stanford",
+              "url": "https://web.stanford.edu/class/cs166/"
+            },
+            {
+              "title": "Graph Theory Tutorials",
+              "url": "https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/"
+            }
+          ],
+          "practice": [
+            "Implement complex tree operations",
+            "Solve graph problems",
+            "Create efficient hash table implementations"
+          ],
+          "assessment": [
+            "Advanced data structure implementation skills",
+            "Problem-solving with complex structures",
+            "Optimization techniques"
+          ]
+        },
+        {
+          "title": "System Design Basics",
+          "description": "Introduction to designing scalable systems",
+          "objectives": [
+            "Learn basic system design principles",
+            "Understand scalability concepts",
+            "Study database design basics",
+            "Master API design fundamentals"
+          ],
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/"
+            }
+          ],
+          "practice": [
+            "Design simple distributed systems",
+            "Create basic system architecture diagrams",
+            "Implement RESTful APIs"
+          ],
+          "assessment": [
+            "Understanding of system design principles",
+            "Basic architectural decision-making",
+            "API design capabilities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced Level",
+      "estimatedTime": "6-8 months",
+      "prerequisites": [
+        "Strong understanding of advanced data structures",
+        "System design fundamentals",
+        "Significant coding experience"
+      ],
+      "topics": [
+        {
+          "title": "Distributed Systems",
+          "description": "Advanced concepts in distributed computing",
+          "objectives": [
+            "Master distributed system principles",
+            "Understand consensus algorithms",
+            "Learn about distributed databases",
+            "Study fault tolerance"
+          ],
+          "resources": [
+            {
+              "title": "Distributed Systems Course",
+              "url": "https://pdos.csail.mit.edu/6.824/"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/"
+            }
+          ],
+          "practice": [
+            "Implement distributed algorithms",
+            "Design fault-tolerant systems",
+            "Create distributed database solutions"
+          ],
+          "assessment": [
+            "Deep understanding of distributed systems",
+            "Implementation of complex distributed algorithms",
+            "System design expertise"
+          ]
+        },
+        {
+          "title": "Advanced Algorithms",
+          "description": "Complex algorithmic concepts and implementations",
+          "objectives": [
+            "Master dynamic programming",
+            "Understand advanced graph algorithms",
+            "Learn about NP-complete problems",
+            "Study approximation algorithms"
+          ],
+          "resources": [
+            {
+              "title": "Advanced Algorithms Course - MIT",
+              "url": "https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2005/"
+            },
+            {
+              "title": "Algorithm Design Manual",
+              "url": "http://www.algorist.com/"
+            }
+          ],
+          "practice": [
+            "Solve complex dynamic programming problems",
+            "Implement advanced graph algorithms",
+            "Work on optimization problems"
+          ],
+          "assessment": [
+            "Advanced algorithm implementation skills",
+            "Complex problem-solving abilities",
+            "Optimization and analysis expertise"
+          ]
+        }
+      ]
+    }
+  ]
+}

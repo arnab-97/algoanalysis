@@ -1,0 +1,705 @@
+{
+  "version": "1.0.2",
+  "problems": [
+    {
+      "id": "1",
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/two-sum/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Google", "Microsoft", "Facebook"],
+      "notes": "Use hashmap to store complements"
+    },
+    {
+      "id": "2",
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "category": "Stacks",
+      "link": "https://leetcode.com/problems/valid-parentheses/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Microsoft"],
+      "notes": "Use stack to track opening brackets"
+    },
+    {
+      "id": "3",
+      "title": "Merge K Sorted Lists",
+      "difficulty": "Hard",
+      "category": "Linked Lists",
+      "link": "https://leetcode.com/problems/merge-k-sorted-lists/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Google", "Microsoft"],
+      "notes": "Use min heap to track minimum elements"
+    },
+    {
+      "id": "4",
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "status": "Unsolved",
+      "companies": ["Google", "Facebook", "Amazon"],
+      "notes": "Use sliding window and set to track characters"
+    },
+    {
+      "id": "5",
+      "title": "Binary Tree Level Order Traversal",
+      "difficulty": "Medium",
+      "category": "Trees",
+      "link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Amazon"],
+      "notes": "Use queue for BFS traversal"
+    },
+    {
+      "id": "6",
+      "title": "Find Median from Data Stream",
+      "difficulty": "Hard",
+      "category": "Heaps",
+      "link": "https://leetcode.com/problems/find-median-from-data-stream/",
+      "status": "Unsolved",
+      "companies": ["Google", "Amazon"],
+      "notes": "Use two heaps to balance median"
+    },
+    {
+      "id": "7",
+      "title": "Product of Array Except Self",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/product-of-array-except-self/",
+      "status": "Unsolved",
+      "companies": ["Google", "Facebook", "Amazon"],
+      "notes": "Use prefix and suffix arrays"
+    },
+    {
+      "id": "8",
+      "title": "Climbing Stairs",
+      "difficulty": "Easy",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/climbing-stairs/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Amazon"],
+      "notes": "Fibonacci sequence for DP optimization"
+    },
+    {
+      "id": "9",
+      "title": "LRU Cache",
+      "difficulty": "Medium",
+      "category": "Design",
+      "link": "https://leetcode.com/problems/lru-cache/",
+      "status": "Unsolved",
+      "companies": ["Google", "Amazon", "Microsoft"],
+      "notes": "Use a hashmap and doubly linked list"
+    },
+    {
+      "id": "10",
+      "title": "Word Ladder",
+      "difficulty": "Hard",
+      "category": "Graphs",
+      "link": "https://leetcode.com/problems/word-ladder/",
+      "status": "Unsolved",
+      "companies": ["Google", "Facebook"],
+      "notes": "Use BFS for shortest transformation sequence"
+    },
+    {
+      "id": "11",
+      "title": "Container With Most Water",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/container-with-most-water/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Google", "Facebook"],
+      "notes": "Two pointers at both ends, move shorter inward"
+    },
+    {
+      "id": "12",
+      "title": "3Sum",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/3sum/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Apple", "Uber"],
+      "notes": "Sort array, fix one element, use two pointers"
+    },
+    {
+      "id": "13",
+      "title": "Remove Nth Node From End of List",
+      "difficulty": "Medium",
+      "category": "Linked Lists",
+      "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "status": "Unsolved",
+      "companies": ["Facebook", "Microsoft", "Oracle"],
+      "notes": "Two-pass with dummy node or one-pass two pointers"
+    },
+    {
+      "id": "14",
+      "title": "Longest Palindromic Substring",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "link": "https://leetcode.com/problems/longest-palindromic-substring/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Microsoft", "Adobe"],
+      "notes": "Expand around center or dynamic programming"
+    },
+    {
+      "id": "15",
+      "title": "Reverse Integer",
+      "difficulty": "Easy",
+      "category": "Math",
+      "link": "https://leetcode.com/problems/reverse-integer/",
+      "status": "Unsolved",
+      "companies": ["Apple", "Adobe"],
+      "notes": "Check overflow before reversing digits"
+    },
+    {
+      "id": "16",
+      "title": "Letter Combinations of a Phone Number",
+      "difficulty": "Medium",
+      "category": "Backtracking",
+      "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Google"],
+      "notes": "Backtracking with digit-to-letters mapping"
+    },
+    {
+      "id": "17",
+      "title": "Search in Rotated Sorted Array",
+      "difficulty": "Medium",
+      "category": "Binary Search",
+      "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Facebook", "Uber"],
+      "notes": "Modified binary search to find pivot"
+    },
+    {
+      "id": "18",
+      "title": "Combination Sum",
+      "difficulty": "Medium",
+      "category": "Backtracking",
+      "link": "https://leetcode.com/problems/combination-sum/",
+      "status": "Unsolved",
+      "companies": ["Airbnb", "Uber"],
+      "notes": "Backtracking with sorting and pruning duplicates"
+    },
+    {
+      "id": "19",
+      "title": "Rotate Image",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/rotate-image/",
+      "status": "Unsolved",
+      "companies": ["Apple", "Microsoft"],
+      "notes": "Transpose matrix and reverse rows"
+    },
+    {
+      "id": "20",
+      "title": "Group Anagrams",
+      "difficulty": "Medium",
+      "category": "Hash Table",
+      "link": "https://leetcode.com/problems/group-anagrams/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Bloomberg"],
+      "notes": "Use sorted string as key in hashmap"
+    },
+    {
+      "id": "21",
+      "title": "Maximum Depth of Binary Tree",
+      "difficulty": "Easy",
+      "category": "Trees",
+      "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Google"],
+      "notes": "Recursive DFS or iterative BFS"
+    },
+    {
+      "id": "22",
+      "title": "Unique Paths",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/unique-paths/",
+      "status": "Unsolved",
+      "companies": ["Google", "Microsoft"],
+      "notes": "DP grid with top-down or combinatorial math"
+    },
+    {
+      "id": "23",
+      "title": "Course Schedule",
+      "difficulty": "Medium",
+      "category": "Graphs",
+      "link": "https://leetcode.com/problems/course-schedule/",
+      "status": "Unsolved",
+      "companies": ["Google", "Amazon"],
+      "notes": "Topological sort with Kahn's algorithm or DFS"
+    },
+    {
+      "id": "24",
+      "title": "Implement Trie (Prefix Tree)",
+      "difficulty": "Medium",
+      "category": "Design",
+      "link": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Apple"],
+      "notes": "Tree structure with children nodes and end flag"
+    },
+    {
+      "id": "25",
+      "title": "Coin Change",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/coin-change/",
+      "status": "Unsolved",
+      "companies": ["Goldman Sachs", "Uber"],
+      "notes": "DP array to track min coins for each amount"
+    },
+    {
+      "id": "26",
+      "title": "Number of Islands",
+      "difficulty": "Medium",
+      "category": "Graphs",
+      "link": "https://leetcode.com/problems/number-of-islands/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Microsoft"],
+      "notes": "DFS/BFS to mark visited land cells"
+    },
+    {
+      "id": "27",
+      "title": "Kth Largest Element in an Array",
+      "difficulty": "Medium",
+      "category": "Heaps",
+      "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      "status": "Unsolved",
+      "companies": ["Facebook", "LinkedIn"],
+      "notes": "Quickselect or min-heap of size k"
+    },
+    {
+      "id": "28",
+      "title": "Merge Intervals",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/merge-intervals/",
+      "status": "Unsolved",
+      "companies": ["Google", "Facebook"],
+      "notes": "Sort intervals and merge overlapping ones"
+    },
+    {
+      "id": "29",
+      "title": "Trapping Rain Water",
+      "difficulty": "Hard",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/trapping-rain-water/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Google"],
+      "notes": "Two pointers or DP for left/right max arrays"
+    },
+    {
+      "id": "30",
+      "title": "Jump Game",
+      "difficulty": "Medium",
+      "category": "Greedy",
+      "link": "https://leetcode.com/problems/jump-game/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Uber"],
+      "notes": "Track maximum reachable index greedily"
+    },
+    {
+      "id": "31",
+      "title": "Rotting Oranges",
+      "difficulty": "Medium",
+      "category": "Graphs",
+      "link": "https://leetcode.com/problems/rotting-oranges/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Microsoft"],
+      "notes": "Multi-source BFS tracking minutes"
+    },
+    {
+      "id": "32",
+      "title": "Largest Rectangle in Histogram",
+      "difficulty": "Hard",
+      "category": "Stacks",
+      "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Adobe"],
+      "notes": "Monotonic stack to track increasing heights"
+    },
+    {
+      "id": "33",
+      "title": "Word Search",
+      "difficulty": "Medium",
+      "category": "Backtracking",
+      "link": "https://leetcode.com/problems/word-search/",
+      "status": "Unsolved",
+      "companies": ["Apple", "Snapchat"],
+      "notes": "DFS with pruning for visited cells"
+    },
+    {
+      "id": "34",
+      "title": "Partition Equal Subset Sum",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/partition-equal-subset-sum/",
+      "status": "Unsolved",
+      "companies": ["Facebook", "Adobe"],
+      "notes": "Knapsack DP to check subset sum"
+    },
+    {
+      "id": "35",
+      "title": "Palindromic Substrings",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "link": "https://leetcode.com/problems/palindromic-substrings/",
+      "status": "Unsolved",
+      "companies": ["LinkedIn", "Bloomberg"],
+      "notes": "Expand around center for odd/even lengths"
+    },
+    {
+      "id": "36",
+      "title": "Meeting Rooms II",
+      "difficulty": "Medium",
+      "category": "Heaps",
+      "link": "https://leetcode.com/problems/meeting-rooms-ii/",
+      "status": "Unsolved",
+      "companies": ["Google", "Amazon"],
+      "notes": "Sort intervals, use min-heap for end times"
+    },
+    {
+      "id": "37",
+      "title": "Invert Binary Tree",
+      "difficulty": "Easy",
+      "category": "Trees",
+      "link": "https://leetcode.com/problems/invert-binary-tree/",
+      "status": "Unsolved",
+      "companies": ["Google", "Amazon"],
+      "notes": "Swap left and right children recursively"
+    },
+    {
+      "id": "38",
+      "title": "Kth Smallest Element in a BST",
+      "difficulty": "Medium",
+      "category": "Trees",
+      "link": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+      "status": "Unsolved",
+      "companies": ["Facebook", "Uber"],
+      "notes": "In-order traversal with early termination"
+    },
+    {
+      "id": "39",
+      "title": "Time Based Key-Value Store",
+      "difficulty": "Medium",
+      "category": "Binary Search",
+      "link": "https://leetcode.com/problems/time-based-key-value-store/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Google"],
+      "notes": "Map keys to list of (timestamp, value), binary search"
+    },
+    {
+      "id": "40",
+      "title": "Network Delay Time",
+      "difficulty": "Medium",
+      "category": "Graphs",
+      "link": "https://leetcode.com/problems/network-delay-time/",
+      "status": "Unsolved",
+      "companies": ["Google", "Uber"],
+      "notes": "Dijkstra's algorithm for shortest path"
+    },
+    {
+      "id": "41",
+      "title": "Edit Distance",
+      "difficulty": "Hard",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/edit-distance/",
+      "status": "Unsolved",
+      "companies": ["Google", "Microsoft", "Amazon"],
+      "notes": "2D DP table for insert/delete/replace operations"
+    },
+    {
+      "id": "42",
+      "title": "Decode Ways",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/decode-ways/",
+      "status": "Unsolved",
+      "companies": ["Facebook", "JPMorgan"],
+      "notes": "Check valid single/double-digit combinations"
+    },
+    {
+      "id": "43",
+      "title": "Maximum Product Subarray",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/maximum-product-subarray/",
+      "status": "Unsolved",
+      "companies": ["LinkedIn", "Microsoft"],
+      "notes": "Track max and min products due to negative values"
+    },
+    {
+      "id": "44",
+      "title": "Subsets",
+      "difficulty": "Medium",
+      "category": "Backtracking",
+      "link": "https://leetcode.com/problems/subsets/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Bloomberg"],
+      "notes": "Iterative bitmasking or recursive backtracking"
+    },
+    {
+      "id": "45",
+      "title": "Word Break",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/word-break/",
+      "status": "Unsolved",
+      "companies": ["Google", "Apple"],
+      "notes": "DP array to track valid segmentation points"
+    },
+    {
+      "id": "46",
+      "title": "Serialize and Deserialize Binary Tree",
+      "difficulty": "Hard",
+      "category": "Trees",
+      "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Microsoft"],
+      "notes": "Preorder traversal with 'null' markers"
+    },
+    {
+      "id": "47",
+      "title": "Pacific Atlantic Water Flow",
+      "difficulty": "Medium",
+      "category": "Graphs",
+      "link": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+      "status": "Unsolved",
+      "companies": ["Google", "Apple"],
+      "notes": "DFS/BFS from both oceans and find intersections"
+    },
+    {
+      "id": "48",
+      "title": "House Robber",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/house-robber/",
+      "status": "Unsolved",
+      "companies": ["Adobe", "Google"],
+      "notes": "Track max money if robbing or skipping current house"
+    },
+    {
+      "id": "49",
+      "title": "Count and Say",
+      "difficulty": "Easy",
+      "category": "Strings",
+      "link": "https://leetcode.com/problems/count-and-say/",
+      "status": "Unsolved",
+      "companies": ["Facebook", "Adobe"],
+      "notes": "Iteratively build sequence by counting digits"
+    },
+    {
+      "id": "50",
+      "title": "Permutations",
+      "difficulty": "Medium",
+      "category": "Backtracking",
+      "link": "https://leetcode.com/problems/permutations/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Apple"],
+      "notes": "Swap elements and backtrack to generate permutations"
+    },
+    {
+      "id": "51",
+      "title": "Minimum Window Substring",
+      "difficulty": "Hard",
+      "category": "Sliding Window",
+      "link": "https://leetcode.com/problems/minimum-window-substring/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Facebook"],
+      "notes": "Expand/contract window to match character counts"
+    },
+    {
+      "id": "52",
+      "title": "Task Scheduler",
+      "difficulty": "Medium",
+      "category": "Greedy",
+      "link": "https://leetcode.com/problems/task-scheduler/",
+      "status": "Unsolved",
+      "companies": ["Google", "Microsoft"],
+      "notes": "Prioritize tasks with highest frequency first"
+    },
+    {
+      "id": "53",
+      "title": "Flatten Binary Tree to Linked List",
+      "difficulty": "Medium",
+      "category": "Trees",
+      "link": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Amazon"],
+      "notes": "Morris traversal-like approach or post-order reversal"
+    },
+    {
+      "id": "54",
+      "title": "Subarray Sum Equals K",
+      "difficulty": "Medium",
+      "category": "Hash Table",
+      "link": "https://leetcode.com/problems/subarray-sum-equals-k/",
+      "status": "Unsolved",
+      "companies": ["Facebook", "Amazon"],
+      "notes": "Track prefix sums and use hashmap for count"
+    },
+    {
+      "id": "55",
+      "title": "Maximum Frequency Stack",
+      "difficulty": "Hard",
+      "category": "Hash Table",
+      "link": "https://leetcode.com/problems/maximum-frequency-stack/",
+      "status": "Unsolved",
+      "companies": ["Google", "Amazon"],
+      "notes": "Use frequency stacks and track max frequency"
+    },
+    {
+      "id": "56",
+      "title": "Insert Interval",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/insert-interval/",
+      "status": "Unsolved",
+      "companies": ["Google", "Uber"],
+      "notes": "Merge new interval with existing ones by checking overlaps"
+    },
+    {
+      "id": "57",
+      "title": "Rotate Array",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/rotate-array/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Adobe"],
+      "notes": "Reverse subarrays to achieve rotation"
+    },
+    {
+      "id": "58",
+      "title": "Generate Parentheses",
+      "difficulty": "Medium",
+      "category": "Backtracking",
+      "link": "https://leetcode.com/problems/generate-parentheses/",
+      "status": "Unsolved",
+      "companies": ["Google", "Microsoft"],
+      "notes": "Backtrack with open/close count constraints"
+    },
+    {
+      "id": "59",
+      "title": "Spiral Matrix",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/spiral-matrix/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Microsoft"],
+      "notes": "Simulate direction changes with boundary checks"
+    },
+    {
+      "id": "60",
+      "title": "Next Permutation",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/next-permutation/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Bloomberg"],
+      "notes": "Find pivot, swap with next larger element, reverse suffix"
+    },
+    {
+      "id": "61",
+      "title": "Search a 2D Matrix",
+      "difficulty": "Medium",
+      "category": "Binary Search",
+      "link": "https://leetcode.com/problems/search-a-2d-matrix/",
+      "status": "Unsolved",
+      "companies": ["Apple", "Amazon"],
+      "notes": "Treat matrix as a flattened sorted array"
+    },
+    {
+      "id": "62",
+      "title": "Unique Binary Search Trees",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/unique-binary-search-trees/",
+      "status": "Unsolved",
+      "companies": ["Google", "Adobe"],
+      "notes": "Catalan numbers using DP"
+    },
+    {
+      "id": "63",
+      "title": "Validate Binary Search Tree",
+      "difficulty": "Medium",
+      "category": "Trees",
+      "link": "https://leetcode.com/problems/validate-binary-search-tree/",
+      "status": "Unsolved",
+      "companies": ["Facebook", "Microsoft"],
+      "notes": "Track min/max bounds during traversal"
+    },
+    {
+      "id": "64",
+      "title": "Sort Colors",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/sort-colors/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Adobe"],
+      "notes": "Dutch National Flag algorithm with three pointers"
+    },
+    {
+      "id": "65",
+      "title": "Add Two Numbers",
+      "difficulty": "Medium",
+      "category": "Linked Lists",
+      "link": "https://leetcode.com/problems/add-two-numbers/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Microsoft"],
+      "notes": "Simulate digit-by-digit addition with carry"
+    },
+    {
+      "id": "66",
+      "title": "Minimum Path Sum",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "link": "https://leetcode.com/problems/minimum-path-sum/",
+      "status": "Unsolved",
+      "companies": ["Google", "Apple"],
+      "notes": "DP grid to accumulate min path from top/left"
+    },
+    {
+      "id": "67",
+      "title": "Word Search II",
+      "difficulty": "Hard",
+      "category": "Trie",
+      "link": "https://leetcode.com/problems/word-search-ii/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Uber"],
+      "notes": "Trie + DFS with pruning for efficiency"
+    },
+    {
+      "id": "68",
+      "title": "Best Time to Buy and Sell Stock",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "status": "Unsolved",
+      "companies": ["Amazon", "Apple"],
+      "notes": "Track min price and max profit in one pass"
+    },
+    {
+      "id": "69",
+      "title": "N-Queens",
+      "difficulty": "Hard",
+      "category": "Backtracking",
+      "link": "https://leetcode.com/problems/n-queens/",
+      "status": "Unsolved",
+      "companies": ["Adobe", "Apple"],
+      "notes": "Backtrack with column, diagonal, and anti-diagonal checks"
+    },
+    {
+      "id": "70",
+      "title": "Reverse Linked List",
+      "difficulty": "Easy",
+      "category": "Linked Lists",
+      "link": "https://leetcode.com/problems/reverse-linked-list/",
+      "status": "Unsolved",
+      "companies": ["Microsoft", "Apple"],
+      "notes": "Iterative or recursive reversal of pointers"
+    }
+  ]
+}
