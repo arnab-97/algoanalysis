@@ -6,6 +6,7 @@ import Router from "next/router";
 import Header from "/components/Header";
 import NProgress from "react-nprogress";
 import { Analytics } from "@vercel/analytics/react";
+import AlgorithmAI from "/components/AlgorithmAI";
 
 import "/styles/nprogress.css";
 
@@ -24,6 +25,7 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
           <Analytics />
         </div>
+        <AlgorithmAI />
       </Provider>
     </div>
   );
