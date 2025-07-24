@@ -20,6 +20,7 @@ module.exports = {
       green: "#1efe5b",
       cyan: "#46bcde",
       yellow: "#e5c454",
+      "yellow-bg": "#2a2419",
       "green-bg": "#1b241d",
       "red-bg": "#321819",
       "purple-bg": "#241b24",
